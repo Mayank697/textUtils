@@ -29,7 +29,7 @@ export default function Navbar(props) {
     )
 }
 
-Navbar.PropTypes = {
+Navbar.propTypes = {
     title: PropTypes.string.isRequired,
     about: PropTypes.string.isRequired
 }
